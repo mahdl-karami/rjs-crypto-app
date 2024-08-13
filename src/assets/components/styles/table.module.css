@@ -1,0 +1,39 @@
+.table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	th {
+		padding: 0 0 1rem 0;
+		border-bottom: 2px solid #bbbbbb;
+		font-size: 1.2rem;
+	}
+	td {
+		border-bottom: 1px solid #cccccc58;
+		font-size: 1.1rem;
+		font-weight: 500;
+	}
+	div {
+		display: flex;
+		align-items: center;
+	}
+	img {
+		width: 40px;
+	}
+	h2 {
+		text-transform: uppercase;
+		opacity: 80%;
+		margin-left: 0.5rem;
+	}
+}
+.succes {
+	color: forestgreen;
+}
+.alert {
+	color: red;
+}
+.loading {
+	width: 100%;
+	min-height: 60vh;
+	text-align: center;
+	padding-top: 10rem;
+}

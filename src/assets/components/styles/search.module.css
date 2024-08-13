@@ -1,0 +1,32 @@
+.search {
+	width: 300px;
+	max-height: 500px;
+	overflow-x: hidden;
+	background: rgba(30, 143, 255, 0.882);
+	backdrop-filter: blur(1.5px);
+	-webkit-backdrop-filter: blur(1.5px);
+	border-radius: 10px;
+	position: absolute;
+	top: 5.5rem;
+	left: 0;
+	z-index: 9;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	padding: 0 1rem;
+	img {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		margin-right: 0.4rem;
+	}
+}
+
+.loading {
+	width: 100%;
+	min-height: 500px;
+	text-align: center;
+	padding-top: 7rem;
+}

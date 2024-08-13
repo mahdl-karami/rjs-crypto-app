@@ -1,0 +1,39 @@
+.pagination {
+	margin: 2rem auto;
+	text-align: center;
+
+	button {
+		border: 2px solid dodgerblue;
+		outline: none;
+		background: transparent;
+		padding: 0.6rem 0.9rem;
+		margin: 1rem 0.2rem;
+		border-radius: 10px;
+		cursor: pointer;
+		transition: all 0.3s linear;
+
+		&:hover {
+			opacity: 80%;
+			background-color: dodgerblue;
+		}
+
+		&:nth-child(1),
+		&:nth-last-child(1) {
+			background: dodgerblue;
+		}
+	}
+
+	span {
+		font-size: 2rem;
+	}
+}
+
+.active {
+	background: dodgerblue !important;
+}
+
+.disable {
+	cursor: not-allowed !important;
+	opacity: 80%;
+	z-index: 0;
+}

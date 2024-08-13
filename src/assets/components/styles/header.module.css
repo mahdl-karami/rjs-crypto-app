@@ -1,0 +1,40 @@
+.header {
+	height: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+	background: dodgerblue;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+	position: relative;
+
+	input {
+		padding: 0.4rem 1.2rem;
+		background: transparent;
+		border: 2px #fff solid;
+		border-radius: 10px;
+		outline: none;
+		font-size: 1.2rem;
+		margin-right: 1rem;
+
+		&::placeholder {
+			color: #fff;
+			opacity: 80%;
+		}
+	}
+
+	select {
+		text-transform: uppercase;
+		padding: 0.4rem 0.4rem;
+		background: transparent;
+		border: 2px #fff solid;
+		border-radius: 10px;
+		outline: none;
+		font-size: 1.2rem;
+
+		option {
+			background-color: dodgerblue;
+		}
+	}
+}

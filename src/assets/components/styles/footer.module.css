@@ -1,0 +1,12 @@
+.footer {
+	padding: 0.5rem 1rem;
+	text-align: center;
+	background: dodgerblue;
+	border-radius: 10px;
+	margin-top: 1rem;
+	p {
+		margin: 0;
+		font-size: 1.3rem;
+		font-weight: 500;
+	}
+}
